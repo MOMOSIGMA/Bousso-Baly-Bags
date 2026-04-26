@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@layer base {
+  * {
+    @apply font-sans;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+
+  body {
+    @apply bg-white text-gray-900;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-black text-white px-6 py-3 rounded hover:bg-gray-800 transition-all duration-300;
+  }
+
+  .btn-secondary {
+    @apply border-2 border-black text-black px-6 py-3 rounded hover:bg-black hover:text-white transition-all duration-300;
+  }
+
+  .btn-whatsapp {
+    @apply bg-green-500 text-white px-6 py-3 rounded hover:bg-green-600 transition-all duration-300 flex items-center gap-2;
+  }
+
+  .hero-text {
+    @apply text-6xl font-bold text-black;
+  }
+
+  .section-title {
+    @apply text-4xl font-bold text-center mb-12 text-black;
+  }
+
+  .product-card {
+    @apply bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1;
+  }
+}
+
+.smooth-scroll {
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,118 @@
+{
+  "categories": [
+    {
+      "id": "sacs-a-main",
+      "name": "Sacs à main",
+      "description": "Sacs de créateurs authentiques pour femmes élégantes à Dakar, Sénégal",
+      "image": "https://i.pinimg.com/736x/d2/e6/37/d2e6375d160911eafe45a44910fe4040.jpg"
+    },
+    {
+      "id": "sacs-tote",
+      "name": "Sacs Tote",
+      "description": "Sacs tote spacieux et tendance pour votre quotidien",
+      "image": "https://i.pinimg.com/736x/ae/26/36/ae2636ef5089a02671417382772e680b.jpg"
+    },
+    {
+      "id": "sacs-bandouliere",
+      "name": "Sacs Bandoulière",
+      "description": "Sacs bandoulière modernes et confortables pour vous",
+      "image": "https://i.pinimg.com/736x/30/4f/23/304f2312632587088a7302ecdd2d0388.jpg"
+    },
+    {
+      "id": "pochettes",
+      "name": "Pochettes",
+      "description": "Petites pochettes élégantes et pratiques pour vos sorties",
+      "image": "https://i.pinimg.com/1200x/3e/1b/d3/3e1bd3f8bbe6133cccde679c3b83585e.jpg"
+    },
+    {
+      "id": "petite-maroquinerie",
+      "name": "Petite Maroquinerie",
+      "description": "Accessoires de mode de luxe à Dakar",
+      "image": "https://i.pinimg.com/1200x/a3/a5/38/a3a5389b90db51f622bb50adf6964d02.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Louis Vuitton Neverfull MM Monogram",
+      "category": "sacs-a-main",
+      "price": 850000,
+      "currency": "FCFA",
+      "description": "Sac Louis Vuitton Neverfull MM authentique en toile monogram. Parfait pour les femmes qui cherchent un sac spacieux et intemporel à Dakar, Sénégal.",
+      "longDescription": "Le sac Louis Vuitton Neverfull MM est l'un des modèles les plus populaires et les plus polyvalents de la maison Louis Vuitton. Avec sa toile monogram signature et ses poignées en cuir naturel, ce sac offre style et praticité pour tous vos déplacements à Dakar.",
+      "image": "https://i.pinimg.com/736x/cf/44/c3/cf44c3c71e33f76bf9cdbf46a3851b26.jpg",
+      "images": [
+        "https://i.pinimg.com/736x/cf/44/c3/cf44c3c71e33f76bf9cdbf46a3851b26.jpg",
+        "https://i.pinimg.com/736x/ae/26/36/ae2636ef5089a02671417382772e680b.jpg"
+      ],
+      "brand": "Louis Vuitton",
+      "condition": "Authentique",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "name": "Gucci GG Supreme Backpack",
+      "category": "sacs-a-main",
+      "price": 750000,
+      "currency": "FCFA",
+      "description": "Sac Gucci GG Supreme authentique. Parfait pour les femmes modernes à Dakar qui veulent combiner style et fonctionnalité.",
+      "longDescription": "Le sac Gucci GG Supreme est un mélange parfait de style et de praticité. Avec son design emblématique GG et ses matériaux de haute qualité, ce sac est idéal pour votre vie quotidienne.",
+      "image": "https://i.pinimg.com/1200x/fd/a4/d7/fda4d71a4c6d0ef52e558a00c3524cdb.jpg",
+      "images": [
+        "https://i.pinimg.com/1200x/fd/a4/d7/fda4d71a4c6d0ef52e558a00c3524cdb.jpg",
+        "https://i.pinimg.com/1200x/a3/a5/38/a3a5389b90db51f622bb50adf6964d02.jpg"
+      ],
+      "brand": "Gucci",
+      "condition": "Authentique",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "name": "Balenciaga Le Cagole Bag",
+      "category": "sacs-bandouliere",
+      "price": 990000,
+      "currency": "FCFA",
+      "description": "Sac Balenciaga Le Cagole authentique en noir. Sac de créateur moderne pour femmes élégantes au Sénégal.",
+      "longDescription": "Le sac Balenciaga Le Cagole est un classique moderne avec son design épuré et ses matériaux premium. Parfait pour les femmes qui cherchent l'authenticité et le style.",
+      "image": "https://i.pinimg.com/1200x/60/c1/c5/60c1c53b05e345e11bdea6b83cf43f5f.jpg",
+      "images": [
+        "https://i.pinimg.com/1200x/8b/03/41/8b0341d40c622db768db7839d6247b93.jpg"
+      ],
+      "brand": "Balenciaga",
+      "condition": "Authentique",
+      "featured": true
+    },
+    {
+      "id": 4,
+      "name": "Louis Vuitton Pochette Métis",
+      "category": "pochettes",
+      "price": 720000,
+      "currency": "FCFA",
+      "description": "Pochette Louis Vuitton Métis authentique. Le sac parfait pour vos sorties à Dakar.",
+      "longDescription": "La pochette Métis de Louis Vuitton est un classique intemporel apprécié par les femmes du monde entier. Avec sa toile monogram et son design élégant, elle est parfaite pour vos accessoires essentiels.",
+      "image": "https://i.pinimg.com/1200x/c7/b6/ba/c7b6ba4ceca2d18e2d63e0ee00763035.jpg",
+      "images": [
+        "https://i.pinimg.com/1200x/d9/f9/97/d9f99756557472fa9f64cdf43a1a2482.jpg"
+      ],
+      "brand": "Louis Vuitton",
+      "condition": "Authentique",
+      "featured": true
+    },
+    {
+      "id": 5,
+      "name": "Gucci Marmont Small Matelassé",
+      "category": "petite-maroquinerie",
+      "price": 780000,
+      "currency": "FCFA",
+      "description": "Sac Gucci Marmont Small en cuir matelassé noir. Accessoire de luxe pour femmes à Dakar, Sénégal.",
+      "longDescription": "Le sac Gucci Marmont Small est un accessoire de mode essential pour les femmes modernes. Avec son design matelassé distinctive et ses détails en or, il ajoute une touche d'élégance à votre look.",
+      "image": "https://i.pinimg.com/1200x/3c/02/eb/3c02eb1186108902c19f849df74d28ae.jpg",
+      "images": [
+        "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=500&h=500&fit=crop"
+      ],
+      "brand": "Gucci",
+      "condition": "Authentique",
+      "featured": false
+    }
+  ]
+}
