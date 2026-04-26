@@ -50,15 +50,14 @@ export const Hero: React.FC<HeroProps> = ({ onShopClick }) => {
             </a>
           </div>
 
-          {/* Brands */}
+          {/* Brands Section - Updated to local images */}
           <div className="mt-12">
-            <p className="text-sm text-gray-300 mb-4">NOS MARQUES PARTENAIRES</p>
-            <div className="flex flex-wrap gap-6 items-center opacity-80">
-              <img src="https://via.placeholder.com/80x40?text=GUCCI" alt="Gucci" className="h-6" />
-              <img src="https://via.placeholder.com/80x40?text=LV" alt="Louis Vuitton" className="h-6" />
-              <img src="https://via.placeholder.com/80x40?text=BALENCIAGA" alt="Balenciaga" className="h-6" />
-              <img src="https://via.placeholder.com/80x40?text=YSL" alt="Yves Saint Laurent" className="h-6" />
-              <img src="https://via.placeholder.com/80x40?text=PRADA" alt="Prada" className="h-6" />
+            <p className="text-sm text-gray-300 mb-4 uppercase tracking-widest">Nos Marques de Prestige</p>
+            <div className="flex flex-wrap gap-8 items-center opacity-90">
+              <img src="/images/logos/louis-vuitton.png" alt="Louis Vuitton" className="h-10 w-auto object-contain brightness-0 invert" />
+              <img src="/images/logos/gucci.png" alt="Gucci" className="h-8 w-auto object-contain brightness-0 invert" />
+              <img src="/images/logos/prada.png" alt="Prada" className="h-6 w-auto object-contain brightness-0 invert" />
+              <img src="/images/logos/saint-lauraint.png" alt="Saint Laurent" className="h-10 w-auto object-contain brightness-0 invert" />
             </div>
           </div>
         </div>

@@ -45,21 +45,21 @@ export const Footer: React.FC = () => {
       {/* Main Footer */}
       <div className="max-w-7xl mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
-          {/* About */}
+          {/* About & Social Links */}
           <div>
             <h4 className="text-lg font-bold mb-4">BOUSSO BALY BAGS</h4>
-            <p className="text-gray-400 text-sm mb-4">
+            <p className="text-gray-400 text-sm mb-6">
               Votre boutique en ligne de sacs de créateurs authentiques à Dakar, Sénégal.
             </p>
-            <div className="flex gap-4">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition text-2xl">
-                f
+            <div className="flex gap-5 items-center">
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition">
+                <img src="/images/social/facebook.png" alt="Facebook" className="w-6 h-6 object-contain grayscale hover:grayscale-0" />
               </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition text-2xl">
-                📷
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition">
+                <img src="/images/social/instagram.png" alt="Instagram" className="w-6 h-6 object-contain grayscale hover:grayscale-0" />
               </a>
-              <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition text-2xl">
-                🎵
+              <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition">
+                <img src="/images/social/tiktok.png" alt="TikTok" className="w-6 h-6 object-contain grayscale hover:grayscale-0" />
               </a>
             </div>
           </div>
@@ -94,7 +94,7 @@ export const Footer: React.FC = () => {
             </ul>
           </div>
 
-          {/* Contact */}
+          {/* Contact Buttons */}
           <div>
             <h4 className="text-lg font-bold mb-4">NOUS CONTACTER</h4>
             <div className="space-y-3">
@@ -102,15 +102,17 @@ export const Footer: React.FC = () => {
                 href="https://wa.me/221772941818"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded text-center text-sm font-bold transition"
+                className="flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded text-sm font-bold transition"
               >
-                💬 Discuter sur WhatsApp
+                <img src="/images/social/whatsapp.png" alt="" className="w-5 h-5 brightness-0 invert" />
+                Discuter sur WhatsApp
               </a>
               <a
                 href="mailto:info@boussosabalybags.sn"
-                className="block bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded text-center text-sm font-bold transition"
+                className="flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded text-sm font-bold transition"
               >
-                ✉️ Envoyer un email
+                <Mail size={18} />
+                Envoyer un email
               </a>
             </div>
           </div>
